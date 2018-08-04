@@ -1,0 +1,63 @@
+.link_info
+{
+  display: inline-block;
+  line-height: 32px;
+}
+
+.ps_15
+{
+  & .form-group
+  {
+    margin-bottom: 20px;
+  }
+
+  & .btn
+  {
+    line-height: 25px;
+    padding: 0 15px;
+    border-radius: 3px;
+    border: 1px solid #297ebd;
+    background: #49b2ff;
+    color: #FFFFFF;
+
+    &:hover
+    {
+      background: #297ebd;
+    }
+  }
+
+  & .doc_panel
+  {
+    background-color: #EBEDF4;
+    border: 1px solid #CCCED7;
+    color: #585A69;
+    font-size: 1.1em;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 1em;
+    position: relative;
+
+    & .panel-heading
+    {
+      background: #EBEDF4;
+      border: 1px solid #CCCED7;
+      font-weight: 700;
+      margin: 0;
+      padding: .2em .5em;
+      text-align: left;
+      display: inline-block;
+      position: absolute;
+      margin-top: -25px;
+    }
+
+    & img
+    {
+      width: 100%;
+
+      &:not(:last-child)
+      {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

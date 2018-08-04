@@ -1,0 +1,26 @@
+.paymaster {
+  padding-left: 20px !important;
+  background-color: #fbfbfb; }
+  .paymaster:after {
+    display: block;
+    content: "\f054";
+    position: absolute;
+    right: 15px;
+    margin-top: -11px;
+    top: 50%;
+    font-family: "FontAwesome";
+    font-size: 25px;
+    height: 22px;
+    width: 14px;
+    color: #777; }
+  .paymaster img {
+    margin-right: 20px; }
+
+.container_9 .paymaster {
+  background: none;
+  padding-left: 0 !important; }
+  .container_9 .paymaster:after {
+    content: '';
+    display: none; }
+
+/*# sourceMappingURL=front.css.map */

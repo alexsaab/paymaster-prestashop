@@ -1,0 +1,40 @@
+.link_info {
+  display: inline-block;
+  line-height: 32px; }
+
+.ps_15 .form-group {
+  margin-bottom: 20px; }
+.ps_15 .btn {
+  line-height: 25px;
+  padding: 0 15px;
+  border-radius: 3px;
+  border: 1px solid #297ebd;
+  background: #49b2ff;
+  color: #FFFFFF; }
+  .ps_15 .btn:hover {
+    background: #297ebd; }
+.ps_15 .doc_panel {
+  background-color: #EBEDF4;
+  border: 1px solid #CCCED7;
+  color: #585A69;
+  font-size: 1.1em;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 1em;
+  position: relative; }
+  .ps_15 .doc_panel .panel-heading {
+    background: #EBEDF4;
+    border: 1px solid #CCCED7;
+    font-weight: 700;
+    margin: 0;
+    padding: .2em .5em;
+    text-align: left;
+    display: inline-block;
+    position: absolute;
+    margin-top: -25px; }
+  .ps_15 .doc_panel img {
+    width: 100%; }
+    .ps_15 .doc_panel img:not(:last-child) {
+      margin-bottom: 20px; }
+
+/*# sourceMappingURL=admin.css.map */
