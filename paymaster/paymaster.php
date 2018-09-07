@@ -488,7 +488,7 @@ class PayMaster extends ModulePPM
             </script>
         </head>
         <body onload="closethisasap();">
-        <form name="redirectpost" method="post" action="<? echo $url; ?>">
+        <form name="redirectpost" method="post" action="<?php echo $url; ?>">
             <?php
             if (!is_null($params)) {
                 foreach ($params as $k => $v) {
